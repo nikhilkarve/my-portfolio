@@ -5,6 +5,25 @@ img {
   width: 200px;
 }
 
+.headerButtons {
+  margin-left: 80%;
+  margin-top: 20px;
+}
+
+.projectHead {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.projectDiv {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+hr {
+  width: 85%;
+}
+
 .profile {
   display: flex;
   justify-content: center;
@@ -34,6 +53,33 @@ p {
   margin-top: 40px;
 }
 
+.myInfo {
+  margin-left: 200px;
+  margin-top: 150px;
+}
+
+.makeBold {
+  font-weight: 500;
+}
+
+.makeUnderline {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.gsuLink {
+  text-decoration: none;
+}
+
+.tagline {
+  font-size: large;
+}
+
+.about {
+  line-height: 1.8rem;
+  margin-top: 30px;
+}
+
 .profileButtons {
   display: flex;
   flex-direction: row;
@@ -55,6 +101,7 @@ button {
   color: rgb(129, 22, 3);
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 }
 /* 
 .middle {
